@@ -12,5 +12,7 @@ public class AnimatedBroccoli {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        Broccoli broccoli = new Broccoli();
+        System.out.println(broccoli.toString());
     }
 }
