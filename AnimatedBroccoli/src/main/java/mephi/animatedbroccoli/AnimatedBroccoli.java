@@ -14,5 +14,7 @@ public class AnimatedBroccoli {
         System.out.println("Hello World!");
         Broccoli broccoli = new Broccoli();
         System.out.println(broccoli.toString());
+        Cabbage bage = new Cabbage(0, 0);
+        System.out.println(bage.toString());
     }
 }
