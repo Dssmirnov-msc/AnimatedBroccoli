@@ -12,6 +12,9 @@ public class Cabbage {
     private int weight;
     private double volume;
 
+    public Cabbage() {
+    }
+    
     public Cabbage(int weight, double volume) {
         this.weight = weight;
         this.volume = volume;

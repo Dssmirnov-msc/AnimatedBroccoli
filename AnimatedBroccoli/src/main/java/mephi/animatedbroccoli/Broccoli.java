@@ -10,10 +10,14 @@ package mephi.animatedbroccoli;
  */
 public class Broccoli extends Cabbage {
     
+    public Broccoli(){
+        
+    };
+    
     public Broccoli(int weight, double volume) {
         super(weight, volume);
     }
-
+    
     @Override
     public String toString() {
         return "Брокколи";
